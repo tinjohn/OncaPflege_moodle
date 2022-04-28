@@ -5,7 +5,7 @@ A collection of files and a documentation for [Onlinecampus Pflege](https://www.
 [Version 3.9.11](https://github.com/moodle/moodle/tree/MOODLE_39_STABLE)
 
 ## Appearance
-Logo : [Onlinecampus Pflege Logo]()
+Logo : [Onlinecampus Pflege Logo](./main/appearance/Logos/OCP_Pfeil_d72733_72dpi_200x200px.png)
 Compact logo : [Onlinecampus Pflege Pfeil]()
 
 ## Theme
