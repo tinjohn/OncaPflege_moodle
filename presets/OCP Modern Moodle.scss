@@ -26,6 +26,7 @@ $green:   #5cb85c !default;
 $teal:    #20c997 !default;
 $cyan:    #5bc0de !default;
 $OCPcompred: #984444 !default;
+$OCPcompredrgb: rgba(152, 68, 68, 0.9) !default;
 $OCPgrey: #ced4da !default;
 $OCPgreyrgb: rgba(206, 212, 218, 0.8) !default;
 
@@ -46,7 +47,7 @@ $body-color:    $gray-800 !default;
 $body-bg:       $OCPgrey !default;
 $drawer-bg:     $OCPgreyrgb !default;
 $card-bg:       $white !default;
-$footer-bg:     rgba(14, 62, 70, 0.9) !default;
+$footer-bg:     $OCPcompredrgb !default;
 
 // Fonts
 $font-size-base: 0.9375rem !default;
