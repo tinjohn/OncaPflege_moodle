@@ -2,14 +2,18 @@
 A collection of files and a documentation for [Onlinecampus Pflege](https://www.onlinecampus-pflege.de).
 
 ## Moodle
-[Version 3.9.11](https://github.com/moodle/moodle/tree/MOODLE_39_STABLE)
+[Version 3.9.11]
+[github](https://github.com/moodle/moodle/tree/MOODLE_39_STABLE)
+[moodle.org]()
 
 ## Appearance
 - Logo : [Onlinecampus Pflege Logo](./appearance/Logos/OncaPflegeLogo_653x200hres.png)
 - Compact logo : [Onlinecampus Pflege Pfeil](./appearance/Logos/OCP_Pfeil_d72733_72dpi_200x200px.png)
 
 ## Theme
-[fordson](https://github.com/dbnschools/moodle-theme_fordson)
+fordson
+- [github](https://github.com/dbnschools/moodle-theme_fordson)
+- [moodle.org](https://github.com/dbnschools/moodle-theme_fordson)
 
 ### preset
 Modern Moodle with some adjustments for [OCP](./presets/OCP%20Modern%20Moodle.scss)
@@ -23,3 +27,13 @@ Modern Moodle with some adjustments for [OCP](./presets/OCP%20Modern%20Moodle.sc
 
 ### Icon Navigation / Navigationssymbol
 - createbuttontext : Kurs anlegen  
+
+## Plugins
+- MotBot
+  - [github](https://github.com/ild-thl/motbot)
+- moodle-block_lpprogressx
+  - [github](https://github.com/tinjohn/moodle-block_lpprogressx)
+- moodle-local_lpautocomplete
+  - [gitlab bugfix version until fixed in official version](https://gitlab.com/tinjohn/moodle-local_lpautocompletedeb)
+  - [gitlab](https://gitlab.com/adapta/moodle-local_lpautocomplete)
+  - [moodle.org](https://moodle.org/plugins/local_lpautocomplete)
