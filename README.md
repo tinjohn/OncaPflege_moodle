@@ -28,6 +28,9 @@ Modern Moodle with some adjustments for [OCP](./presets/OCP%20Modern%20Moodle.sc
 ### Icon Navigation / Navigationssymbol
 - createbuttontext : Kurs anlegen  
 
+### Custom image settings
+- loginimage : [Onlinecampus Pflege backgroundgraphic](./custom_image_settings/OncaPflegeMoodle_Loginbg72.png)
+
 ## Plugins
 - MotBot
   - [github](https://github.com/ild-thl/motbot)
