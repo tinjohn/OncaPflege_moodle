@@ -126,6 +126,13 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+// summary in tile4 with summary: hard coded 4rem height was to short
+.class-box4 .course-summary4 {
+  height: 30% !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 .navbar {
     box-shadow: 0 2px 4px rgba(0, 0, 0, .08);
 }
