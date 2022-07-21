@@ -94,6 +94,7 @@ $alert-border-width:                0 !default;
 $spectrum-base: $OCPcompred !default;
 $blockwidthfordson: 375px !default;
 $sectionnamehighlight : $OCPcompred !default;
+$courseimgcontheight: 35% !default;
 
 $theme-colors: (
     primary: $primary,
@@ -128,9 +129,13 @@ body {
 
 // summary in tile4 with summary: hard coded 4rem height was to short
 .class-box4 .course-summary4 {
-  height: 30% !important;
+  height: 50% !important;
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
+}
+
+.courseimagecontainer {
+  height: $courseimgcontheight !important;
 }
 
 .navbar {
