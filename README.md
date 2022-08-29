@@ -58,5 +58,9 @@ Modern Moodle with some adjustments for [OCP](./presets/OCP%20Modern%20Moodle.sc
 - moodle-atto_wordcount (might not be used further)
 - moodle-mod_hvp (might not be used further)
 
-
+## Upgrade notes
+* 3.11 -> 4.0.3
+- plugin qformat_examview missing [discussion](https://moodle.org/mod/forum/discuss.php?d=435784)
+- 
+ 
   
