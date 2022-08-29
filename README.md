@@ -48,4 +48,9 @@ Modern Moodle with some adjustments for [OCP](./presets/OCP%20Modern%20Moodle.sc
 ## Plugins for further developements
 - moodle-local_metadata (will be used for alternate content)
 
+## Plugins for former developements
+- moodle-format_collapsibletopics (might not be used further)
+- moodle-format_multitopic (might not be used further)
+
+
   
