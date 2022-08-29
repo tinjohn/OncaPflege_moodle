@@ -42,3 +42,6 @@ Modern Moodle with some adjustments for [OCP](./presets/OCP%20Modern%20Moodle.sc
   - [gitlab bugfix version until fixed in official version](https://gitlab.com/tinjohn/moodle-local_lpautocompletedeb)
   - [gitlab](https://gitlab.com/adapta/moodle-local_lpautocomplete)
   - [moodle.org](https://moodle.org/plugins/local_lpautocomplete)
+- moodle-format_buttonsx
+  - [github](https://github.com/tinjohn/moodle-format_buttonsx)
+  
