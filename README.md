@@ -48,12 +48,15 @@ Modern Moodle with some adjustments for [OCP](./presets/OCP%20Modern%20Moodle.sc
 ## Plugins for further developements
 - moodle-local_metadata (will be used for alternate content)
 - moodle-atto_snippets (will be used for alternate content) (in lib/editor/atto/plugins)
+- moodle-block_game (option for gamification)
+- moodle-block_xp (option for gamification)
 
 ## Plugins for former developements
 - moodle-format_collapsibletopics (might not be used further)
 - moodle-format_multitopic (might not be used further)
 - moodle-atto_templates4u (might not be used further)
 - moodle-atto_wordcount (might not be used further)
+- moodle-mod_hvp (might not be used further)
 
 
   
