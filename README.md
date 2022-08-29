@@ -47,7 +47,7 @@ Modern Moodle with some adjustments for [OCP](./presets/OCP%20Modern%20Moodle.sc
 
 ## Plugins for further developements
 - moodle-local_metadata (will be used for alternate content)
-- moodle-atto_snippets (will be used for alternate content) (in lib/editor/atto)
+- moodle-atto_snippets (will be used for alternate content) (in lib/editor/atto/plugins)
 
 ## Plugins for former developements
 - moodle-format_collapsibletopics (might not be used further)
