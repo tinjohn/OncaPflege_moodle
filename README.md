@@ -44,4 +44,8 @@ Modern Moodle with some adjustments for [OCP](./presets/OCP%20Modern%20Moodle.sc
   - [moodle.org](https://moodle.org/plugins/local_lpautocomplete)
 - moodle-format_buttonsx
   - [github](https://github.com/tinjohn/moodle-format_buttonsx)
+
+## Plugins for further developements
+- moodle-local_metadata (will be used for alternate content)
+
   
