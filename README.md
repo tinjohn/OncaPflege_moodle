@@ -34,7 +34,7 @@ Modern Moodle with some adjustments for [OCP](./presets/OCP%20Modern%20Moodle.sc
 
 
 ## Plugins
-- MotBot
+- mod_MotBot
   - [github](https://github.com/ild-thl/motbot)
 - moodle-block_lpprogressx
   - [github](https://github.com/tinjohn/moodle-block_lpprogressx)
