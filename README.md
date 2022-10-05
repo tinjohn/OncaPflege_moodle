@@ -2,8 +2,8 @@
 A collection of files and a documentation for [Onlinecampus Pflege](https://www.onlinecampus-pflege.de).
 
 ## Moodle
-[Version 3.9.11]
-[github](https://github.com/moodle/moodle/tree/MOODLE_39_STABLE)
+[Version 4.0.4]
+[github](https://github.com/moodle/moodle/tree/MOODLE_400_STABLE)
 [moodle.org]()
 
 ## Appearance
@@ -11,20 +11,24 @@ A collection of files and a documentation for [Onlinecampus Pflege](https://www.
 - Compact logo : [Onlinecampus Pflege Pfeil](./appearance/Logos/OCP_Pfeil_d72733_72dpi_200x200px.png)
 
 ## Theme
-fordson
-- [github](https://github.com/dbnschools/moodle-theme_fordson)
-- [moodle.org](https://github.com/dbnschools/moodle-theme_fordson)
+learnR
+- [github](https://github.com/dbnschools/moodle-theme_learnr.git)
+- [moodle.org](https://moodle.org/plugins/theme_learnr)
 
 ### preset
-Modern Moodle with some adjustments for [OCP](./presets/OCP%20Modern%20Moodle.scss)
+learnR default with some adjustments for [OCP](./presets/OCP%20LearnR.scss)
 
 ### layout
-- pagelayout : Full Width / Top Header Image
-- sectionlayout : Highlightes Section Title
-- coursetilestyle : Tile Style w/course summary
-- marketingstyle : Top Bar Highlight
-- blockdisplay : Three Column Fordson Default   
-
+- coursetilestyle : Tile Style Four w/course summary
+- sectionstyle : LearnR Default Style
+- fullwidthpage: No
+- showcourseindexnav: No
+- showblockdrawer: Yes
+- showlatestcourses: Yes
+- showprogressbar: Yes
+- activitynavdisplay: Turn top location on
+- showpageimage: Yes
+ 
 ### Icon Navigation / Navigationssymbol
 - createbuttontext : Kurs anlegen  
 
@@ -42,3 +46,11 @@ Modern Moodle with some adjustments for [OCP](./presets/OCP%20Modern%20Moodle.sc
   - [gitlab bugfix version until fixed in official version](https://gitlab.com/tinjohn/moodle-local_lpautocompletedeb)
   - [gitlab](https://gitlab.com/adapta/moodle-local_lpautocomplete)
   - [moodle.org](https://moodle.org/plugins/local_lpautocomplete)
+
+## Configuration
+  e-mail base authentification
+  SMTP
+
+
+## Course Configuration
+  self enrolement
