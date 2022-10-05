@@ -48,12 +48,14 @@ learnR default with some adjustments for [OCP](./presets/OCP%20LearnR.scss)
   - [moodle.org](https://moodle.org/plugins/local_lpautocomplete)
 - moodle-format_buttonsx (in course/format)
   - [github](https://github.com/tinjohn/moodle-format_buttonsx)
+- moodle-block_game
+  - [github](https://github.com/JotaDF/moodle-block_game.git)
+  - [moodle.org](https://moodle.org/plugins/block_game)
+
 
 ## Plugins for further developements
 - moodle-local_metadata (will be used for alternate content)
 - moodle-atto_snippets (will be used for alternate content) (in lib/editor/atto/plugins)
-- moodle-block_game (option for gamification)
-- moodle-block_xp (option for gamification)
 
 ## Plugins for former developements
 - moodle-format_collapsibletopics (might not be used further)
@@ -68,8 +70,3 @@ learnR default with some adjustments for [OCP](./presets/OCP%20LearnR.scss)
 
 ## Course Configuration
   self enrolement
-
-## Upgrade notes
-* 3.11 -> 4.0.3
-- plugin qformat_examview missing [discussion](https://moodle.org/mod/forum/discuss.php?d=435784)
--
