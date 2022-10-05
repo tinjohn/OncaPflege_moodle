@@ -62,6 +62,13 @@ learnR default with some adjustments for [OCP](./presets/OCP%20LearnR.scss)
 - moodle-atto_wordcount (might not be used further)
 - moodle-mod_hvp (might not be used further)
 
+## Configuration
+  e-mail base authentification
+  SMTP
+
+## Course Configuration
+  self enrolement
+
 ## Upgrade notes
 * 3.11 -> 4.0.3
 - plugin qformat_examview missing [discussion](https://moodle.org/mod/forum/discuss.php?d=435784)
