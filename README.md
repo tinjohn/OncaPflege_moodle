@@ -28,7 +28,7 @@ learnR default with some adjustments for [OCP](./presets/OCP%20LearnR.scss)
 - showprogressbar: Yes
 - activitynavdisplay: Turn top location on
 - showpageimage: Yes
- 
+
 ### Icon Navigation / Navigationssymbol
 - createbuttontext : Kurs anlegen  
 
@@ -38,7 +38,7 @@ learnR default with some adjustments for [OCP](./presets/OCP%20LearnR.scss)
 
 
 ## Plugins
-- MotBot
+- mod_MotBot
   - [github](https://github.com/ild-thl/motbot)
 - moodle-block_lpprogressx
   - [github](https://github.com/tinjohn/moodle-block_lpprogressx)
@@ -46,11 +46,23 @@ learnR default with some adjustments for [OCP](./presets/OCP%20LearnR.scss)
   - [gitlab bugfix version until fixed in official version](https://gitlab.com/tinjohn/moodle-local_lpautocompletedeb)
   - [gitlab](https://gitlab.com/adapta/moodle-local_lpautocomplete)
   - [moodle.org](https://moodle.org/plugins/local_lpautocomplete)
+- moodle-format_buttonsx (in course/format)
+  - [github](https://github.com/tinjohn/moodle-format_buttonsx)
 
-## Configuration
-  e-mail base authentification
-  SMTP
+## Plugins for further developements
+- moodle-local_metadata (will be used for alternate content)
+- moodle-atto_snippets (will be used for alternate content) (in lib/editor/atto/plugins)
+- moodle-block_game (option for gamification)
+- moodle-block_xp (option for gamification)
 
+## Plugins for former developements
+- moodle-format_collapsibletopics (might not be used further)
+- moodle-format_multitopic (might not be used further)
+- moodle-atto_templates4u (might not be used further)
+- moodle-atto_wordcount (might not be used further)
+- moodle-mod_hvp (might not be used further)
 
-## Course Configuration
-  self enrolement
+## Upgrade notes
+* 3.11 -> 4.0.3
+- plugin qformat_examview missing [discussion](https://moodle.org/mod/forum/discuss.php?d=435784)
+-
