@@ -4,6 +4,8 @@
 
 # Hide Home in top navigation
 - advanced SCSS (Appearance:THEME:advanced)
-  `div.primary-navigation nav.navigation ul.nav li:first-child {
-      display: none;
-  }`
+    ```
+    div.primary-navigation nav.navigation ul.nav li:first-child {
+         display: none;
+    }
+   ```
