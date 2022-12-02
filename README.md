@@ -16,7 +16,8 @@ learnR
 - [moodle.org](https://moodle.org/plugins/theme_learnr)
 
 ### preset
-learnR default with some adjustments for [OCP](./presets/OCP%20LearnR.scss)
+- learnR default with some adjustments for [OCP](./presets/OCP%20LearnR.scss)
+- add icons to pix directory, necessary for some highlighting layouts  
 
 ### layout
 - coursetilestyle : Tile Style Four w/course summary
