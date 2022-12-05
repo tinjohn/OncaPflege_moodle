@@ -38,7 +38,9 @@ learnR
 - headerdefaultimage : [Onlinecampus Pflege backgroundgraphic](./custom_image_settings/headerbg_OncaPflege_kurslogos72.png)
 
 ### Custom language settings
-- Course -> Nugget : [customlangpack](./custom_lang/customlang22111002_de.zip)
+- set via administration (Language / Language customisation)
+- upload customlang package
+  - Course -> Nugget : [customlangpack](./custom_lang/customlang22111002_de.zip)
 
 
 ## Plugins
