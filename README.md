@@ -37,6 +37,9 @@ learnR
 - loginimage : [Onlinecampus Pflege backgroundgraphic](./custom_image_settings/OncaPflegeMoodle_Loginbg72.png)
 - headerdefaultimage : [Onlinecampus Pflege backgroundgraphic](./custom_image_settings/headerbg_OncaPflege_kurslogos72.png)
 
+### Custom language settings
+- Course -> Nugget : [customlangpack](./custom_lang/customlang22111002_de.zip)
+
 
 ## Plugins
 - mod_MotBot
