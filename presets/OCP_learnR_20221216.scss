@@ -1,0 +1,454 @@
+// Bootstrap variables
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #8f959e !default;
+$gray-600: #6a737b !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #1d2125 !default;
+$black:    #000 !default;
+
+$blue:    #0f6cbf !default;
+$indigo:  #6610f2 !default;
+$purple:  #613d7c !default;
+$pink:    #e83e8c !default;
+$red:     #ca3120 !default;
+$orange:  #f0ad4e !default;
+$yellow:  #ff7518 !default;
+$green:   #357a32 !default;
+$teal:    #20c997 !default;
+$cyan:    #008196 !default;
+
+// ADDED tinjohn
+$OCPcompred: #9e0115 !default;
+$OCPcompredmat: #984444 !default;
+$OCPcompredrgb: rgba(152, 68, 68, 0.9) !default;
+$OCPwhite: #ffffff !default;
+$OCPgrey: #ced4da !default;
+$OCPgreyrgb: rgba(206, 212, 218, 0.8) !default;
+$OCPgreybutbg: #e9ecef !default;
+
+// $primary:       $blue !default;
+// $success:       $green !default;
+// $info:          $cyan !default;
+// $warning:       $orange !default;
+// $danger:        $red !default;
+// $secondary:     $gray-400 !default;
+
+
+$primary:       $OCPcompred !default;
+$success:       $teal !default;
+$info:          $OCPcompred !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$secondary:     $OCPgreybutbg !default;
+
+
+
+
+$administration:    #5d63f6 !default;
+$assessment:        #eb66a2 !default;
+$collaboration:     #f7634d !default;
+$communication:     #11a676 !default;
+$content:           #399be2 !default;
+$interface:         #a378ff !default;
+
+$info-outline:    #1f7e9a;
+$warning-outline: #a6670e;
+
+// Tables
+$table-accent-bg:             rgba($black, .03) !default;
+
+// Options
+$enable-responsive-font-sizes: true !default;
+
+// Body
+$body-color:        $gray-900 !default;
+// CHANGED $body-bg:           #d6dbe7 !default;
+$body-bg:       $OCPwhite !default;
+// CHANGED $drawer-bg-color:   $gray-100 !default;
+$drawer-bg-color:   $OCPgreyrgb !default;
+
+// Links
+$link-color:                              $primary !default;
+$link-hover-color:                        darken($link-color, 15%) !default;
+
+// Fonts
+$font-size-base: 0.9375rem !default;
+$rfs-base-font-size: 0.9rem !default;
+$headings-font-weight:   700 !default;
+
+// Navbar #15558d
+// $navbar-bg:                         #075395 !default;
+$navbar-bg:                         $OCPgrey !default;
+$navbar-dark-color:                 $white !default;
+$navbar-dark-hover-color:           $navbar-dark-color !default;
+$navbar-dark-active-color:          $navbar-dark-color !default;
+$navbar-dark-disabled-color:        rgba($white, .7) !default;
+
+$navbar-light-color:                $primary !default;
+$navbar-light-hover-color:          $navbar-light-color !default;
+$navbar-light-active-color:         $navbar-light-color !default;
+$navbar-light-disabled-color:       rgba($gray-600, 1) !default;
+
+$navbar-light-brand-color:                $navbar-light-active-color !default;
+$navbar-light-brand-hover-color:          $navbar-light-active-color !default;
+$navbar-dark-brand-color:                 $navbar-dark-active-color !default;
+$navbar-dark-brand-hover-color:           $navbar-dark-active-color !default;
+
+
+// Breadcrumbs
+$breadcrumb-padding-y:              .25rem !default;
+$breadcrumb-padding-x:              0 !default;
+$breadcrumb-item-padding:           .5rem !default;
+$breadcrumb-margin-bottom:          0 !default;
+$breadcrumb-bg:                     transparent !default;
+$breadcrumb-divider: "/" !default;
+$breadcrumb-divider-rtl: "/" !default;
+
+// Alerts
+$alert-border-width:                0 !default;
+$card-group-margin: .25rem;
+
+// Toasts
+$toast-color:                       $white !default;
+$toast-background-color:            rgba($gray-900, .95) !default;
+$toast-header-color:                $gray-100 !default;
+$toast-header-background-color:     rgba($white, .1) !default;
+
+// Custom control size
+$custom-control-indicator-size: 1.25rem;
+
+$input-btn-focus-color: rgba($primary, .75) !default;
+
+$input-border-color: $gray-500 !default;
+
+$dropdown-link-hover-color: $white;
+$dropdown-link-hover-bg: $primary;
+
+$popover-max-width: 300px !default;
+
+
+$border-radius:               .25rem !default;
+$border-radius-lg:            .5rem !default;
+$border-radius-sm:            .25rem !default;
+
+$fullwidthpage: 0 !default;
+
+@if $fullwidthpage == 1 {
+    $course-content-maxwidth: 100%;
+}
+
+$courseiconsize: 30px !default;
+$fpicon-width: 100px !default;
+$courseboxheight: 250px !default;
+$activityhover: rgba($primary, 30%) !default;
+
+// stylelint-disable
+$theme-colors: () !default;
+$theme-colors: map-merge((
+    primary: $primary,
+    secondary: $secondary,
+    success: $success,
+    info: $info,
+    warning: $warning,
+    danger: $danger,
+), $theme-colors);
+// stylelint-enable
+
+$activity-icon-colors: () !default;
+$activity-icon-colors: map-merge(
+    (
+        "administration": $administration,
+        "assessment": $assessment,
+        "collaboration": $collaboration,
+        "communication": $communication,
+        "content": $content,
+        "interface": $interface,
+    ),
+    $activity-icon-colors
+);
+
+$spacer: 1rem !default;
+$spacers: (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 2),
+    6: ($spacer * 3)
+) !default;
+
+// Import FontAwesome.
+@import "fontawesome";
+
+// Import All of Bootstrap
+@import "bootstrap";
+
+// Import Core moodle CSS
+@import "moodle";
+
+// Preset CSS
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/////////////
+// Onlinecampus Pflege OCP OncaPflege
+////////////
+
+// Kopie des dev-isy raw initial SCSS
+
+/* hide home - by settings LearnR
+div.primary-navigation nav.navigation ul.nav li:first-child {
+  display: none;
+}
+*/
+
+.section li.activity:hover, .activity-item:hover {
+  background-color: inherit !important;
+}
+
+.customimage {
+  max-height: none !important;
+}
+
+@media only screen and (max-width: 610px) {
+   .content {
+     margin: 0 10px !important;
+   }
+}
+@media only screen and (min-width: 600px) {
+  .contentafterlink {
+     text-align: center;
+  }
+}
+
+
+.card {
+//  background-color: transparent;
+}
+.block {
+   border-top-left-radius: 34px ;
+   border-top: 7px solid #9e0115;
+}
+
+#page {
+ background-color: #d9d9d9;
+}
+.pagelayout-frontpage .drawer {
+   background-color: #d9d9d9;
+}
+.pagelayout-frontpage .drawer.drawer-right .block {
+   max-width: 900px;
+   margin: 0 auto;
+}
+
+/* Lücke */
+.pagelayout-frontpage .drawerheader {
+   height: 0px;
+}
+.pagelayout-frontpage .drawercontent {
+  height: 100%;
+}
+
+/* ISY Meta */
+.metatile {
+border-color: #9e0115;
+}
+
+/* moodle tag block */
+.tag_cloud .s20 {
+font-size: 1.2em;
+}
+
+
+.pagelayout-frontpage .drawer.drawer-right {
+  width: 100%;
+  max-width: 100%;
+/*  z-index: 2010; */
+  background-image: url(//local.onlinecampus-pflege.de/moodle/pluginfile.php/1/theme_boost/backgroundimage/1663412071/headerbg_OncaPflege_kurslogos72.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: 0;
+  visibility: visible;
+}
+
+.pagelayout-frontpage .drawer.drawer-right .block {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+// ild-moocster
+// SCSS for marking areas width icons an colors
+// this is loaded from the post.scss.
+
+/* Runde Bilder */
+.img-circle {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/* Bereichskennzeichnung */
+.book-grey,
+.paragraph-blue,
+.math-blue,
+.example-green,
+.quest-orange,
+.cal-green,
+.download-blue,
+.pay-green,
+.important-purple,
+.education-orange,
+.browsercheck-blue,
+.quiz-green,
+.watch-turquoise,
+.link-pink,
+.docs-grey,
+.recommend-grey,
+.certificate-yellow,
+.forum-blue,
+.zitat-blue,
+.scorm-violet,
+.task-blue {
+	background-color: #30ade7;
+	background-size:65px 65px;
+	background-position:5px 0px;
+	background-repeat:no-repeat;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding: 15px 20px 15px 75px;
+	min-height:70px;
+}
+.quest-orange,
+.cal-green,
+.download-blue,
+.pay-green,
+.important-purple,
+.education-orange,
+.browsercheck-blue,
+.quiz-green,
+.watch-turquoise,
+.link-pink,
+.docs-grey,
+.recommend-grey,
+.certificate-yellow,
+.forum-blue,
+.zitat-blue,
+.scorm-violet,
+.task-blue {
+	color: #fff;
+	& a {
+		color:#fff;
+		text-decoration:underline;
+		&:hover {
+			color:rgba(255,255,255,0.85);
+		}
+	}
+}
+.book-grey,
+.paragraph-blue,
+.math-blue,
+.example-green {
+	color:$primary;
+	background-color:#efefef;
+	& a {
+		color:$primary;
+		text-decoration:underline;
+		&:hover {
+			color:darken($primary,10%);
+		}
+	}
+}
+
+.task-blue {
+	background-color: #30ade7;
+	background-image: url([[pix:theme|icons/task]]);
+}
+.book-grey {
+	background-color: #efefef;
+	background-image: url([[pix:theme|icons/book]]);
+}
+.paragraph-blue {
+	background-color: #c3dbea;
+	background-image: url([[pix:theme|icons/paragraph-dark]]);
+}
+.math-blue {
+	background-color: #bfd8d7;
+	background-image: url([[pix:theme|icons/formel]]);
+}
+.example-green {
+	background-color: #a7d2ac;
+	background-image: url([[pix:theme|icons/example]]);
+}
+.quest-orange {
+	background-color: #f7941e;
+	background-image: url([[pix:theme|icons/question]]);
+}
+.cal-green {
+	background-color: #8cc63f;
+	background-image: url([[pix:theme|icons/calendar]]);
+}
+.download-blue {
+	background-color: #0c5374;
+	background-image: url([[pix:theme|icons/download]]);
+}
+.pay-green {
+	background-color: #006837;
+	background-image: url([[pix:theme|icons/euro]]);
+}
+.important-purple {
+	background-color: #534c91;
+	background-image: url([[pix:theme|icons/important]]);
+}
+.education-orange {
+	background-color: #ea621f;
+	background-image: url([[pix:theme|icons/education]]);
+}
+.browsercheck-blue {
+	background-color: #687497;
+	background-image: url([[pix:theme|icons/check]]);
+}
+.quiz-green {
+	background-color: #0e9a8e;
+	background-image: url([[pix:theme|icons/quiz]]);
+	background-position:0px 8px;
+}
+.watch-turquoise {
+	background-color: #71b0b0;
+	background-image: url([[pix:theme|icons/eye]]);
+}
+.link-pink {
+	background-color: #bf3e6f;
+	background-image: url([[pix:theme|icons/link]]);
+}
+.docs-grey {
+	background-color: #b2b2b2;
+	background-image: url([[pix:theme|icons/document]]);
+}
+.recommend-grey {
+	background-color: #a2a4af;
+	background-image: url([[pix:theme|icons/attention]]);
+}
+.certificate-yellow {
+	background-color: #fdc60b;
+	background-image: url([[pix:theme|icons/certificate]]);
+}
+.forum-blue {
+	background-color: #26769d;
+	background-image: url([[pix:theme|icons/forum]]);
+}
+.zitat-blue {
+	background-color: #2e90c0;
+	background-image: url([[pix:theme|icons/quote]]);
+}
+.scorm-violet {
+	background-color: #80559d;
+	background-image: url([[pix:theme|icons/scorm]]);
+}

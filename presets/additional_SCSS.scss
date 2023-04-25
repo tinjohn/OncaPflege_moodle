@@ -1,0 +1,38 @@
+/* Stand 20221219 */
+/* Raw inital */
+
+@media only screen and (max-width: 610px) {
+  .content {
+    margin: 0 10px !important;
+ }
+}
+
+@media only screen and (min-width: 600px) {
+  .contentafterlink {
+     text-align: center;
+  }
+}
+
+/* RAW SCSS */
+.pagelayout-frontpage .primary-navigation {
+   visibility: hidden;
+}
+/* color of Tour - white does not work with white font color */
+body div[data-flexitour="step-background-fader"], body div[data-flexitour="step-background"] {
+    background-color: #21759b!important;
+}
+
+/* In course overview <keine Kurse> - due parameter use for <Kurs> in language pack no translation into <nuggets> possible , thus needs to be hidden. */
+div[data-region="courses-view"] p.text-muted {
+   visibility: hidden;
+}
+
+/* a background image for the block_drawer on the frontpage only
+block is needed for ILD Meta plugin */
+.pagelayout-frontpage .drawercontent {
+  background-image: url("//moodle.onlinecampus-pflege.de/pluginfile.php/1/theme_learnr/pagebackgroundimage/1670953443/headerbg_OncaPflege_kurslogos72_transparency.png");
+  background-size: cover;
+  background-position:center;
+  width: 100%;
+  height: 100%;
+}

@@ -2,7 +2,7 @@
 A collection of files and a documentation for [Onlinecampus Pflege](https://www.onlinecampus-pflege.de).
 
 ## Moodle
-[Version 4.0.4]
+[Version 4.0.5]
 [github](https://github.com/moodle/moodle/tree/MOODLE_400_STABLE)
 [moodle.org]()
 
@@ -16,8 +16,9 @@ learnR
 - [moodle.org](https://moodle.org/plugins/theme_learnr)
 
 ### preset
-- learnR default with some adjustments for [OCP](./presets/OCP%20LearnR.scss)
-- add icons to pix directory, necessary for some highlighting layouts  
+- learnR default with some adjustments for [OCP](./presets)
+- add icons to pix directory of the theme, necessary for some highlighting layouts  
+
 
 ### layout
 - coursetilestyle : Tile Style Four w/course summary
@@ -37,7 +38,16 @@ learnR
 - loginimage : [Onlinecampus Pflege backgroundgraphic](./custom_image_settings/OncaPflegeMoodle_Loginbg72.png)
 - headerdefaultimage : [Onlinecampus Pflege backgroundgraphic](./custom_image_settings/headerbg_OncaPflege_kurslogos72.png)
 
-### Custom language settings
+## for front pagelayout
+- add [fpimgs folder](./front_page/) to pix directory of moodles root dir, necessary for front page images
+- edit front page and add [html code](./front_page/html.html)
+
+## for Dashboard Menu
+- set custommenuitems (Website administration -> Appearance -> Theme Settings)
+  - Alle Nuggets|/my/index.php#ildmetaselect_form_anchor_freetxtsearch||de
+  - All Nuggets|/my/index.php#ildmetaselect_form_anchor_freetxtsearch||en
+
+## Custom language settings
 - set via administration (Language / Language customisation)
 - upload customlang package
   - Course -> Nugget : [customlangpack](./custom_lang/customlang22111002_de.zip)
@@ -57,6 +67,24 @@ learnR
 - moodle-block_game
   - [github](https://github.com/JotaDF/moodle-block_game.git)
   - [moodle.org](https://moodle.org/plugins/block_game)
+- block_isymetaselect
+  - [github](https://github.com/ild-thl/moodle-block_isymetaselect.git)
+    ```
+      git clone -b master https://github.com/ild-thl/moodle-block_isymetaselect.git ildmetaselect
+    ```
+  - [github dev OCP](https://github.com/tinjohn/moodle-block_isymetaselect.git)
+    ```
+      git clone -b master https://github.com/tinjohn/moodle-block_isymetaselect.git ildmetaselect
+    ```
+- block_isymetaselect
+  - [github](https://github.com/ild-thl/moodle-local_isymeta.git)
+  ```
+    git clone -b master https://github.com/ild-thl/moodle-local_isymeta.git ildmeta
+  ```
+  - [github dev OCP](https://github.com/tinjohn/moodle-local_isymeta.git)
+  ```
+    git clone -b master https://github.com/tinjohn/moodle-local_isymeta.git ildmeta
+  ```
 
 
 ## Plugins for further developements
@@ -76,3 +104,21 @@ learnR
 
 ## Course Configuration
   self enrolement
+
+## Navigationsbuttons
+- Appearance -> Theme settings
+  - Nuggets|/course/
+  - Nuggetfilter|/my/index.php#ildmetaselect_form_anchor_freetxtsearch
+- hide on frontpage oin RAW SCSS
+  - ``` .pagelayout-frontpage .primary-navigation {
+            visibility: hidden;
+         }  
+     ```
+
+##  Kurs Teilnehmer sind für Studierende sichtbar – auch in der Rangliste
+[thanks to](https://www.xelium.co.uk/2018/06/moodle-hide-participants-view-from-students/)
+- Go to Site administration > Users > Permissions > Define roles.
+- Click the Edit settings icon (the gear button) for the Student role.
+- Filter the list by typing ‘Participants‘ in the filter field.
+- Make sure you uncheck the two capabilities called View participants. By default the Course: View participants check box is ticked to Allow. Uncheck this.
+- Click Save changes to commit the change in Permission
