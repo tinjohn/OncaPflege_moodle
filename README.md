@@ -56,6 +56,11 @@ learnR
 ## Plugins
 - mod_MotBot
   - [github](https://github.com/ild-thl/motbot)
+   ```
+    git clone https://github.com/ild-thl/motbot motbot
+  ```
+  - needs additional plugins installed in moodle
+  
 - moodle-block_lpprogressx
   - [github](https://github.com/tinjohn/moodle-block_lpprogressx)
 - moodle-local_lpautocomplete
@@ -76,7 +81,7 @@ learnR
     ```
       git clone -b master https://github.com/tinjohn/moodle-block_isymetaselect.git ildmetaselect
     ```
-- block_isymetaselect
+- block_isyselect
   - [github](https://github.com/ild-thl/moodle-local_isymeta.git)
   ```
     git clone -b master https://github.com/ild-thl/moodle-local_isymeta.git ildmeta
@@ -85,6 +90,14 @@ learnR
   ```
     git clone -b master https://github.com/tinjohn/moodle-local_isymeta.git ildmeta
   ```
+
+## Planned plugins 
+- moodle_mod_ilddigitalcert
+- [github](https://github.com/oncampus/moodle_mod_ilddigitalcert.git)
+  ```
+    git clone https://github.com/oncampus/moodle_mod_ilddigitalcert.git ilddigitalcert
+  ```
+- needs more than the moodle plugin, see readme in repository  
 
 
 ## Plugins for further developements
