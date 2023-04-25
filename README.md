@@ -128,8 +128,8 @@ learnR
 
 ## Navigationsbuttons
 - Appearance -> Theme settings
-  - Nuggets|/course/
-  - Nuggetfilter|/my/index.php#ildmetaselect_form_anchor_freetxtsearch
+  - Alle Nuggets|/my/index.php#ildmetaselect_form_anchor_freetxtsearch||de
+  - All Nuggets|/my/index.php#ildmetaselect_form_anchor_freetxtsearch||en
 - hide on frontpage in RAW SCSS
      ``` 
         .pagelayout-frontpage .primary-navigation {
