@@ -57,16 +57,16 @@ learnR
 - mod_MotBot
   - [github](https://github.com/ild-thl/motbot)
    ```
-    git clone https://github.com/ild-thl/motbot motbot
-  ```
-  - needs additional plugins installed in moodle
+   git clone https://github.com/ild-thl/motbot motbot
+   ```
+  - needs additional plugins installed in moodle (not installed yet)
     - Telegram plugin
     ```
-        git clone https://github.com/pascalhuerten/moodle_telegram.git
+      git clone https://github.com/pascalhuerten/moodle_telegram.git
     ```
     - Signal plugin
     ```
-     git clone https://github.com/pascalhuerten/moodle_signal.git
+       git clone https://github.com/pascalhuerten/moodle_signal.git
     ```
 
 - moodle-block_lpprogressx
@@ -91,13 +91,13 @@ learnR
     ```
 - block_isyselect
   - [github](https://github.com/ild-thl/moodle-local_isymeta.git)
-  ```
-    git clone -b master https://github.com/ild-thl/moodle-local_isymeta.git ildmeta
-  ```
+    ```
+      git clone -b master https://github.com/ild-thl/moodle-local_isymeta.git ildmeta
+    ```
   - [github dev OCP](https://github.com/tinjohn/moodle-local_isymeta.git)
-  ```
-    git clone -b master https://github.com/tinjohn/moodle-local_isymeta.git ildmeta
-  ```
+     ```
+       git clone -b master https://github.com/tinjohn/moodle-local_isymeta.git ildmeta
+     ```
 
 ## Planned plugins 
 - moodle_mod_ilddigitalcert
@@ -130,13 +130,14 @@ learnR
 - Appearance -> Theme settings
   - Nuggets|/course/
   - Nuggetfilter|/my/index.php#ildmetaselect_form_anchor_freetxtsearch
-- hide on frontpage oin RAW SCSS
-  - ``` .pagelayout-frontpage .primary-navigation {
+- hide on frontpage in RAW SCSS
+     ``` 
+        .pagelayout-frontpage .primary-navigation {
             visibility: hidden;
          }  
      ```
 
-##  Kurs Teilnehmer sind für Studierende sichtbar – auch in der Rangliste
+##  Hide participants – in course and score board
 [thanks to](https://www.xelium.co.uk/2018/06/moodle-hide-participants-view-from-students/)
 - Go to Site administration > Users > Permissions > Define roles.
 - Click the Edit settings icon (the gear button) for the Student role.
