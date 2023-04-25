@@ -60,7 +60,15 @@ learnR
     git clone https://github.com/ild-thl/motbot motbot
   ```
   - needs additional plugins installed in moodle
-  
+    - Telegram plugin
+    ```
+        git clone https://github.com/pascalhuerten/moodle_telegram.git
+    ```
+    - Signal plugin
+    ```
+     git clone https://github.com/pascalhuerten/moodle_signal.git
+    ```
+
 - moodle-block_lpprogressx
   - [github](https://github.com/tinjohn/moodle-block_lpprogressx)
 - moodle-local_lpautocomplete
