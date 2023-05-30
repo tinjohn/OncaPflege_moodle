@@ -11,7 +11,7 @@ A collection of files and a documentation for [Onlinecampus Pflege](https://www.
 - Compact logo : [Onlinecampus Pflege Pfeil](./appearance/Logos/OCP_Pfeil_d72733_72dpi_200x200px.png)
 
 ## Theme
-learnR
+learnR v1.7 -  newer versions (v4.2.r6) expect moodle version > 4.1 
 - [github](https://github.com/dbnschools/moodle-theme_learnr.git)
 - [moodle.org](https://moodle.org/plugins/theme_learnr)
 
