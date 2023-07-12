@@ -3,15 +3,15 @@ A collection of files and a documentation for [Onlinecampus Pflege](https://www.
 
 ## Moodle
 [Version 4.1+]
-[github](https://github.com/moodle/moodle.git) use branch MOODLE_STABLE_401
-[moodle.org]()
+- [github](https://github.com/moodle/moodle.git) use branch MOODLE_STABLE_401
+- [moodle.org](https://moodle.org)
 
 ## Appearance
 - Logo : [Onlinecampus Pflege Logo](./appearance/Logos/OncaPflegeLogo_653x200hres.png)
 - Compact logo : [Onlinecampus Pflege Pfeil](./appearance/Logos/OCP_Pfeil_d72733_72dpi_200x200px.png)
 
 ## Theme
-learnR
+learnR (version v4.2.r7)
 - [github](https://github.com/dbnschools/moodle-theme_learnr.git)
 - [moodle.org](https://moodle.org/plugins/theme_learnr)
 
@@ -20,10 +20,18 @@ learnR
 - add icons to pix directory of the theme, necessary for some highlighting layouts  
 
 
-### layout
-- coursetilestyle : Tile Style Four w/course summary
-- sectionstyle : LearnR Default Style
-- fullwidthpage: No
+### configuration
+- Feel -> Navigation -> hidenodesprimarynavigation (Home, Dashboard) 
+  - removes multiple ways for navigation  
+- Feel -> Blocks -> blockregionsforfrontpage -> Content (lower)
+  - add ISymetaselect block at frontpage 
+  - change capability to Allow for theme/learnr:viewregioncontentlower for guests (Administration -> Define roles -> 'Guest' -> Edit)
+- Look -> Page
+  - coursecontentmaxwidth 70%
+  - mediumcontentmaxwidth 95%
+- Look -> Generell Settings
+  - coursetilestyle : Tile Style Four w/course summary
+  - sectionstyle : LearnR Default Style
 - showcourseindexnav: No
 - showblockdrawer: Yes
 - showlatestcourses: Yes
