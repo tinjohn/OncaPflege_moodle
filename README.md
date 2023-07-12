@@ -2,7 +2,7 @@
 A collection of files and a documentation for [Onlinecampus Pflege](https://www.onlinecampus-pflege.de).
 
 ## Moodle
-[Version 4.1.3+]
+[Version 4.1+]
 [github](https://github.com/moodle/moodle.git) use branch MOODLE_STABLE_401
 [moodle.org]()
 
