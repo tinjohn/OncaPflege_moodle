@@ -27,11 +27,29 @@ learnR (version v4.2.r7)
   - add ISymetaselect block at frontpage 
   - change capability to Allow for theme/learnr:viewregioncontentlower for guests (Administration -> Define roles -> 'Guest' -> Edit)
 - Look -> Page
-  - coursecontentmaxwidth 70%
+  - coursecontentmaxwidth 82%
   - mediumcontentmaxwidth 95%
 - Look -> Generell Settings
   - coursetilestyle : Tile Style Four w/course summary
   - sectionstyle : LearnR Default Style
+  - add the preset file from presets (OCP_learnR_YYYYMMDD.scss)
+- Look -> SCSS
+  - raw intial SCSS: copy from presets
+  - raw SCSS: copy from presets
+- Look -> Branding
+  - logo: siehe [logos](./appearance/Logos/)
+  - logocompact: [logos](./appearance/Logos/)
+  - favicon: [logos](./appearance/Logos/)
+  - brandcolor: #7A000C
+  - bodybg: #d9d9d9
+  - bgdark: #7A000C
+  - navbarcolor: Primary color navbar with light font color
+- Look -> Login Page
+    - loginbackgroundimage: [custom_image_settings](./appearance/Logos/custom_image_settings)
+    - loginformtransparency: yes
+- Look -> Course
+    - showprogressbar: yes
+
 - showcourseindexnav: No
 - showblockdrawer: Yes
 - showlatestcourses: Yes
