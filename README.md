@@ -25,7 +25,7 @@ learnR (version v4.2.r7)
   - removes multiple ways for navigation  
 - Feel -> Blocks -> blockregionsforfrontpage -> Content (lower)
   - add ISymetaselect block at frontpage 
-  - change capability to Allow for theme/learnr:viewregioncontentlower for guests (Administration -> Define roles -> 'Guest' -> Edit)
+  - change capability to Allow for theme/learnr:viewregioncontentlower for guests (Administration -> Users -> Define roles -> 'Guest' -> Edit)
 - Look -> Page
   - coursecontentmaxwidth 82%
   - mediumcontentmaxwidth 95%
