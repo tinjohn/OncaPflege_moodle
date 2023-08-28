@@ -124,6 +124,13 @@ learnR (version v4.2.r7)
      ```
        git clone -b master https://github.com/tinjohn/moodle-local_isymeta.git ildmeta
      ```
+- moodle-filter_h5p for improved portability
+    - [moodle.org](https://moodle.org/plugins/filter_h5p)
+    - [github](https://github.com/center-for-learning-management/moodle-filter_h5p.git)
+    ````
+        filter/h5p
+        git clone https://github.com/center-for-learning-management/moodle-filter_h5p.git filter_h5p
+    ```
 
 ## Planned plugins 
 - moodle_mod_ilddigitalcert
