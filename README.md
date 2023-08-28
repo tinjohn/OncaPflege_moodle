@@ -127,7 +127,7 @@ learnR (version v4.2.r7)
 - moodle-filter_h5p for improved portability
     - [moodle.org](https://moodle.org/plugins/filter_h5p)
     - [github](https://github.com/center-for-learning-management/moodle-filter_h5p.git)
-    ````
+    ```
         filter/h5p
         git clone https://github.com/center-for-learning-management/moodle-filter_h5p.git filter_h5p
     ```
