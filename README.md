@@ -67,6 +67,7 @@ learnR (version v4.2.r7)
 ## for front pagelayout
 - add [fpimgs folder](./front_page/) to pix directory of moodles root dir, necessary for front page images
 - edit front page and add [html code](./front_page/html.html)
+- enable viewregioncontentlower for role Guest and Authenticated user for blocks in the region
 
 ## for Dashboard Menu
 - set custommenuitems (Website administration -> Appearance -> Theme Settings)
