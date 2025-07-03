@@ -183,3 +183,13 @@ learnR (version v4.2.r7)
 - Filter the list by typing ‘Participants‘ in the filter field.
 - Make sure you uncheck the two capabilities called View participants. By default the Course: View participants check box is ticked to Allow. Uncheck this.
 - Click Save changes to commit the change in Permission
+
+## LTI UX
+- add cohort for lti user
+- add flavours in theme for the cohort with css that hides the global navbar
+    ```
+    .navbar {
+        display: none;
+    }
+    ```
+
