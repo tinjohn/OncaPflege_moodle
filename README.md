@@ -184,8 +184,10 @@ learnR (version v4.2.r7)
 - Make sure you uncheck the two capabilities called View participants. By default the Course: View participants check box is ticked to Allow. Uncheck this.
 - Click Save changes to commit the change in Permission
 
-## LTI UX
-- add cohort for lti user
+## LTI UX (optional)
+- NEW(2024) install [Dynamic cohorts](https://moodle.org/plugins/tool_dynamic_cohorts) Plugin
+- create a cohort for LTI user (Site administration > Users > Cohorts)
+- add rule for cohort (Site administration > Users > Accounts > Dynamic cohorts > Manage rules)
 - add flavours in theme for the cohort with css that hides the global navbar
     ```
     .navbar {
